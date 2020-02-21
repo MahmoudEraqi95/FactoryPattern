@@ -1,4 +1,4 @@
-public class OtherCountryUser implements Currency {
+public class OtherCountryUser implements ICurrency {
     @Override
     public double getPrice(double price) {
         return price;

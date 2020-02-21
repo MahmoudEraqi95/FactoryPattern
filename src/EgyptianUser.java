@@ -1,7 +1,7 @@
 
 
 
-public class EgyptianUser implements Currency {
+public class EgyptianUser implements ICurrency {
     @Override
     public double getPrice(double price) {
         return price*16;

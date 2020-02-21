@@ -3,11 +3,11 @@
 
 public class UserFactory {
 
-    public Currency UserFactory(String nationality) {
+    public ICurrency UserFactory(Countries nationality) {
 
         switch(nationality){
-            case "Egypt":return new EgyptianUser();
-            case "Europe":return new EuropeanUser();
+            case Egypt:return new EgyptianUser();
+            case Europe:return new EuropeanUser();
             default:return new OtherCountryUser();
         }
     }

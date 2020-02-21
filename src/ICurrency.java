@@ -2,7 +2,7 @@
 
 
 
-public interface Currency {
+public interface ICurrency {
 
     double getPrice(double price);
     String getCurrencySign();

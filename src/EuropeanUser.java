@@ -1,7 +1,7 @@
 
 
 
-public class EuropeanUser implements Currency {
+public class EuropeanUser implements ICurrency {
     @Override
     public double getPrice(double price) {
         //you should use some API to convert the price from USD to the desired currency(in this case EURO)
